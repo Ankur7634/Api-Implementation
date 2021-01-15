@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+}
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("bg.jpg" );
+}
+.fa-search{
+    color: black;
+}
+h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: rgba(0,65,106,1);
+}
+.space{
+    height: 160px;
+    margin-top: 70px;
+}
+.jumbotron{
+    margin-top: 15px;
+    height: 160px;
+    background: linear-gradient(90deg, rgba(0,65,106,1) 0%, rgba(255,255,255,0) 100%, rgba(255,255,255,0) 100%);
+}
+img{
+    width:410px;
+    height:300px; 
+    margin-left: 33px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.animation{  
+    position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymove {
+    from {top: 210px;}
+    to {top: 0px;}
+}
+.input-field{
+    opacity: 1;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 22px;
+}
+.btn{
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 4px;
+}

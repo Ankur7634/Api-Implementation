@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Implementation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="space">
+        <center><h1><i class="fa fa-search"></i>Image Search</h1></center>
+    </header>
+    <section class="jumbotron text-center">
+        <form class="form-inline">
+            <input type="text" name="data" list="huge_list" id="data" class="form-control input-field" placeholder="Enter Keyword...">
+            <datalist id="huge_list"></datalist>
+        </form>
+        <div class=error></div>
+        <button class="btn btn-md btn-primary">Search</button>
+    </section>   
+    <section>
+       <div class="image"></div>
+    </section> 
+    <script src="script.js"></script>
+</body>
+</html>
